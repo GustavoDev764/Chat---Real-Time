@@ -46,7 +46,9 @@ export default class MessagesHistory extends React.Component {
                   <div className="message-body">{text}</div>
                 </div>
                 <div className="p-2 bg-primary">
-                  <label className="date-msg">{this.getDate(date)}</label>
+                  <label className="date-msg">
+                    {this.getDate(date) + " " + this.getTime(date)}
+                  </label>
                 </div>
               </div>
             </div>
@@ -62,7 +64,9 @@ export default class MessagesHistory extends React.Component {
                   <div className="message-body">{text}</div>
                 </div>
                 <div className="p-2 bg-primary">
-                  <label className="date-msg">{this.getDate(date)}</label>
+                  <label className="date-msg">
+                    {this.getDate(date) + " " + this.getTime(date)}
+                  </label>
                 </div>
               </div>
             </div>

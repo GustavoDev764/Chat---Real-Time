@@ -3,6 +3,8 @@ Este Chat Utiliza, Node.js, ReactJS, e MongoDB
 
 Detalhes
 ----
+Para fazer o chat em tempo real, utilizo o socket.io e socket.io-client,
+
 
 
 <img src="photos/001.png" height="920" width="920">

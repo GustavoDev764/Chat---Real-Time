@@ -40,16 +40,19 @@ export default class MessagesHistory extends React.Component {
             <div className={"message me"} key={id}>
               <div className="d-flex flex-column mb-3">
                 <div className="p-2 bg-info">
+                  <label className="date-msg-type1">
+                    {this.getDate(date) + " " + this.getTime(date)}
+                  </label>
                   <label className="name-user">{username}</label>
                 </div>
                 <div className="p-2 bg-warning">
                   <div className="message-body">{text}</div>
                 </div>
-                <div className="p-2 bg-primary">
+                {/* <div className="p-2 bg-primary">
                   <label className="date-msg">
                     {this.getDate(date) + " " + this.getTime(date)}
                   </label>
-                </div>
+                </div> */}
               </div>
             </div>
           );
@@ -59,15 +62,18 @@ export default class MessagesHistory extends React.Component {
               <div className="d-flex flex-column mb-3">
                 <div className="p-2 bg-info">
                   <label className="name-user">{username}</label>
+                  <label className="date-msg-type2">
+                    {this.getDate(date) + " " + this.getTime(date)}
+                  </label>
                 </div>
                 <div className="p-2 bg-warning">
                   <div className="message-body">{text}</div>
                 </div>
-                <div className="p-2 bg-primary">
+                {/* <div className="p-2 bg-primary">
                   <label className="date-msg">
                     {this.getDate(date) + " " + this.getTime(date)}
                   </label>
-                </div>
+                </div> */}
               </div>
             </div>
           );

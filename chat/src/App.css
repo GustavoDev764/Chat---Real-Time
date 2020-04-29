@@ -76,7 +76,7 @@ body {
 .app .messages .messages-history .message {
   width: 100%;
   padding: 12px;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
   padding-top: 0;
 }
 .app .messages .messages-history .message:last-child {
@@ -132,6 +132,20 @@ body {
   font-size: 10px;
   position: relative;
   top: -12px;
+}
+.date-msg-type1 {
+  font-size: 11px;
+  color: #8c8c8c;
+  position: relative;
+  top: 10px;
+  left: -16px;
+}
+.date-msg-type2 {
+  font-size: 11px;
+  color: #8c8c8c;
+  position: relative;
+  top: 10px;
+  left: 8px;
 }
 .name-user {
   position: relative;

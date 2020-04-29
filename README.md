@@ -1,9 +1,9 @@
-# Mais Encomta
-Plataforma de promoção online
+# Chat em Tempo Real
+Este Chat Utiliza, Node.js, ReactJS, e MongoDB
 
 Detalhes
 ----
-FrontEnd criado em React-Native-Expo
+
 
 <img src="photos/001.png" height="920" width="920">
 <img src="photos/01.png" height="920" width="920">

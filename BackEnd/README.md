@@ -1,8 +1,8 @@
 ## Instalação
 - fazer um git clone https://github.com/GustavoDev764/Chat---Real-Time
-- entra no direction 'admin-chat'
+- entra no direction 'BackEnd'
 - npm install
-- npm start
+- npm dev
 
 ### `npm start`
 
